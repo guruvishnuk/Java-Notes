@@ -1,0 +1,42 @@
+============================POLYMORPHISM==============================================================================
+
+1.What is polymorphism?
+
+->the ability of the single entity to behave in different                 	 situation differently.
+
+2. why it is used?
+ ->to reduce the flexibility in code 
+ ->to reuse the methods and make them dynamic
+ ->to support method overriding 
+ -> to reduce code complexity
+
+3.Types of polymorphism ?
+   Compile-Time-Polymorphism (Static Binding/Early Binding)  
+    Achieved using the methods overloading
+
+  Run-Time-Polymorphism (Dynamic Binding/late binding)
+  
+| Feature           | Compile-Time (Overloading)             | Runtime (Overriding)                   |
+| ----------------- | -------------------------------------- | -------------------------------------- |
+| Binding time      | Compile time                           | Runtime                                |
+| Achieved by       | Method Overloading                     | Method Overriding                      |
+| Method resolution | Based on reference type                | Based on object type                   |
+| Example           | Same method name, different parameters | Same method signature, different class |
+| Keyword           | `static` methods possible              | Cannot override static methods         |
+
+
+4.Important Concepts of polymorphism
+
+ Upcasting:->  it is assigning the subclass implementation to the super class object references.
+
+ Downcasting-> it is assigning the superclass implementation to the sub class object references
+
+
+5.Rules for Method Overriding:
+
+Method name must be same.
+Parameters must be same.
+Return type must be same or covariant.
+Access modifier cannot be more restrictive.
+Only inherited methods can be overridden.
+Static, final, and private methods cannot be overridden.

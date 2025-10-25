@@ -1,0 +1,92 @@
+explain the encapsolution in details:
+
+1.definition :
+		encapsolution is the process of wrapping the members functions and data members into the single unit		 it will restrict the direct access to property.	
+
+2.Why we need encapsolution ?
+		encapsolution is needed because in some cases the property and behaviours are interdependent on each 		other irrespective of each others we need to wrap them into the single unit.
+	
+3.how to implement encapsolution ?
+                we can implement  using the private variables and getters and setter
+		if we want to implement only for the readable access to the properties we can go with getters.
+		if we want to implement only for the writable access to the properties we can go with setters.
+
+4.example :
+                employee 
+
+		class Employee {
+    // Step 1: Declare variables as private
+    private String name;
+    private int age;
+    private double salary;
+
+    // Step 2: Provide public getter method (for read access)
+    public String getName() {
+        return name;
+    }
+
+    // Step 3: Provide public setter method (for write access)
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age > 18) { // validation logic
+            this.age = age;
+        } else {
+            System.out.println("Age must be greater than 18");
+        }
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        if (salary > 0) {
+            this.salary = salary;
+        } else {
+            System.out.println("Invalid salary amount");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+
+        // Setting values using setter methods
+        emp.setName("Guruvishnu");
+        emp.setAge(23);
+        emp.setSalary(50000);
+
+        // Getting values using getter methods
+        System.out.println("Employee Name: " + emp.getName());
+        System.out.println("Employee Age: " + emp.getAge());
+        System.out.println("Employee Salary: " + emp.getSalary());
+    }
+}
+
+
+
+5.advantage :
+		Data Security
+                
+6.Real time example
+ 	   tablet where all the ingridients or chemicals or medical items wrapper into the single capsule
+7.summary 
+    basically the encapsolution is nothing the wrapping the data members and member function into the single unit is 	encapsolution and we and modify them with the helper methods that is getter and setters 
+
+
+
+
+
+
+
+
+ 
+  

@@ -1,0 +1,29 @@
+git commands
+
+mkdir project : will create a folder 
+
+cd : change the directory
+ 
+git status: will show the status or history of your repository
+
+git add . || git names.txt :->
+
+git -a ;-> to know hidden files
+
+git commit -m "paste your msg here"
+
+cat filename.pdf/txt etc ;-> will display the data present inside the folder or file
+
+
+git restore --stagged names.txt :->> will take back the permission to last update
+
+
+
+git log will give me the entire history of the repository
+
+
+git reset paste the hashcode all other were be  removed or deleted
+
+  
+
+ 

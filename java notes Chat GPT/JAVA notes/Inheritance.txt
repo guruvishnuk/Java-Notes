@@ -1,0 +1,74 @@
+========================================INHERITANCE===================================================================
+
+1.what is inheritance ?
+
+-> Acquiring the properties and behaviours of parent class to child class is heritance.
+
+    The terminologies of the inheritance are:
+
+ 			 1. Parent class :Basically which class  provides the properties or behaviours is known as 					  Super class or Parent class.
+		
+			 2.Child class: similarly the class which consumes or accepts the prop - behaviours is known 					  as Sub class or child Class.
+
+			 3.Extends : it is the key to inherit the properties form classes to another
+
+			 4.Super keyword: it is used to access the immediate parent class
+
+2.Why Inheritance is Required ?
+
+->	 to achieve Code reusability
+-> 	 to improve maintainability
+->       to implement polymorphism 
+->       to build hierarchies related classes
+
+3.Explain the types of inheritance ?
+  -> Single - level - inheritance.
+		the class which is inherited to one class or one level
+
+  -> Multi  - level - inheritance.
+              the class which has more than one level of inherited classes  
+ 
+  -> Hybrid - 	    - inheritance.
+		it is combination of hierarchical and multiple inheritance is known as hybrid inheritance.
+
+  -> hierarchical   - inheritance.
+		the super class which has more the one immediate sub class or child class.
+
+   ->Multiple Inheritance  :
+	 it is one sub class has more than one immediate parent class 
+    
+    java will not support multiple inheritance with respect to classes to avoid the diamond problem or  ambiquity
+
+   Mention Diamond problem 
+
+ -> explain the methods overriding?
+
+  -> the constructors are present in each class but they are not inherited to any classes but they call the super class even implicitly by super call statement.
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++SUPER & THIS++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Q1. what is Super Keyword ?
+->  the super keyword is used when we have same properties in child class also  and parent class also so the preference is given to the child class so the super key will refer to the parent class properties.
+
+    it hold the current object reference only but in upcasted or parent type.
+    if we fail to add the super keyword the compiler will add it by itself
+    it is also used to load the statements inside it.
+    Super indicates the parent type.
+
+Q2. What is the This Keyword ?
+-> the this keyword will refer to the Current object reference .
+   it is used when the local variable is also same and the variable used inside the non static context are same the                    	preference is given to the local variable so in that case we use this keyword.
+  the this keywords means to the same type.
+  this keyword should be added explicitly.
+
+
+
+
+
+
+    
+

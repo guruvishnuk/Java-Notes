@@ -1,0 +1,45 @@
+===============================================ABSTRACTION============================================================
+
+1.What is Abstraction ?
+-> Abstraction is used to show only the functionality and hide the unnecessary implementation to user.
+
+ex : car while driving you just need steering and accelerator brake and clutch.
+
+2. Why abstraction is needed in java.?
+-> To reduce complexity by hiding the unnecessary details
+-> to increase the security by showing only necessary details
+
+
+3.How Abstraction can be achieved in java.
+-> In java Abstraction can be achieved in two ways.
+   using class ----> 0-100% we can achieve in some cases
+   using interface ---->(100% abstraction before java 8)
+
+4.Abstract Class :
+ --> The class which is declared with the keyword abstract.
+   Abstract class can have both methods :
+  ----> unimplemented abstract methods
+  ----> implemented non-abstract methods 
+
+
+5.Rules to Achieve Abstraction
+   -->cannot initiated directly bcz (we cant create the object of abstract class)
+  --> Can hava abstract and non -abstract methods
+  --> can have constructors and variables
+  --> the subclass must be declared as abstract or it must be implemented.
+
+ 
+| Feature         | Abstract Class                                | Interface                                                                            |
+| --------------- | --------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Methods**     | Can have both abstract & non-abstract methods | Only abstract methods (before Java 8), default & static methods allowed after Java 8 |
+| **Variables**   | Can have instance variables                   | Only `public static final` constants                                                 |
+| **Inheritance** | Supports single inheritance                   | Supports multiple inheritance                                                        |
+| **Use Case**    | When you want partial abstraction             | When you want complete abstraction                                                   |
+| **Constructor** | Can have constructors                         | Cannot have constructors                                                             |
+
+6. Advantages of Abstraction
+
+Reduces code complexity.
+Improves maintainability.
+Increases security (hides implementation).
+Supports modular design.
