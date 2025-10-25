@@ -1,0 +1,36 @@
+DAY-1:-> JAVA :->
+   Q1:what is java?
+  Ans:->java is the high level,Object oriented programming language,and also a platform independent language.
+        as i mentioned it is object oriented means it follows opps principle ,works with object and class,
+	also as i mentioned it is platform independent it has 2 step compilation process so it is known as Platform         	independent ,basically with the help of compiler the first step compilation takes place that is it compiles the     	source code and convert that code to binary or byte code or intermediate code late on that source file 	i.e .java file is converted to the .class file and later on through the help of the JDK(Java Development Kit)   
+	it will convert that byte or intermediate code to the native machine understandable language through help of   	the JVM(Java Virtual Machine) and JRE(Java Runtime Environment) so basically the JVM consists of the Java   	interpreter so it will compile the single line code and excutive line by line and it also contains the JIT(just 	in time compiler) which is used to reduce the compilation time and increase the performance of the execution 	and it will mark the repeated lines and it will not recompile the repeated lines again by this it will reduce 	the compilation line.
+
+
+    Q2:What are the java Features?
+   -=> the feature of the java
+      1.Simple learning:->it has simple syntax and clean syntax and simple English alphabets that can be easily understandable for anyone so it is simple in learning
+
+	2.High performance:-> as it has JIT in it, which increase the performance of the execution and also as it has 	garbage collector which will destroy once after the code gets executed and also automatic memory management 	System which leads to increase the performance.
+
+	3.Platform independent:'
+
+	4.opps principle:-it follows the opps principle and works with the class and object which wiil represent the real word entity 
+
+	5.multithreading :->it will support the simultaneous execution of more than one task
+
+	6.Robust :it is bobust in nature that is it has concept of exception handling so it become stronger in nature
+
+	q3.Why java is Platform Independent??
+
+
+	Q4.What is the difference between the JRE ,JVM,JDK
+	
+
+
+
+
+
+
+
+
+
